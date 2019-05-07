@@ -29,7 +29,7 @@ export default {
     };
   },
   mounted() {
-    document.getElementById("sky").scrollIntoView();
+    document.body.style.overflow = "hidden";
 
     const tween = new TimelineLite();
 
@@ -48,6 +48,9 @@ export default {
         "-=5"
       )
     );
+  },
+  destroyed() {
+    document.body.style.overflow = "visible";
   }
 };
 </script>
@@ -59,10 +62,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-body {
-  overflow: hidden;
 }
 
 #sky {
