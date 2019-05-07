@@ -21,9 +21,9 @@ export default {
         values: [
           { x: -10, y: -10 },
           { x: window.innerWidth * 0.4, y: 150 },
-          { x: window.innerWidth * 0.8, y: -150 },
-          { x: window.innerWidth * 0.6, y: -100 },
-          { x: window.innerWidth * 1.3, y: -200 }
+          { x: window.innerWidth * 0.8, y: -180 },
+          { x: window.innerWidth * 0.4, y: -122 },
+          { x: window.innerWidth * 1.3, y: -250 }
         ]
       }
     };
@@ -34,7 +34,7 @@ export default {
     const tween = new TimelineLite();
 
     tween.add(
-      TweenLite.to(".plane", 4, {
+      TweenLite.to(".plane", window.innerWidth / 425 + 1, {
         bezier: this.flightPath,
         ease: SlowMo.ease.config(0.3, 0.2, false)
       })
@@ -82,7 +82,7 @@ export default {
     position: absolute;
     left: -30%;
     top: 50%;
-    width: 8em;
+    width: 10vw;
   }
 }
 </style>
