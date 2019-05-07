@@ -4,6 +4,10 @@ import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
 
+import VuePageTransition from "vue-page-transition";
+
+Vue.use(VuePageTransition);
+
 Vue.config.productionTip = false;
 
 new Vue({
