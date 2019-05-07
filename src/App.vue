@@ -1,13 +1,18 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/plane">Plane</router-link>
+      <div class="links-container">
+        <router-link to="/">Home</router-link>
+        <router-link to="/about">About</router-link>
+        <router-link to="/plane">Plane</router-link>
+        <router-link to="/sortable">Sortable</router-link>
+      </div>
+
+      <img alt="Vue logo" id="brand" src="@/assets/dvync_logo.png" />
     </div>
 
     <vue-page-transition name="fade-in-right">
-      <router-view />
+      <router-view id="main-view" />
     </vue-page-transition>
   </div>
 </template>
@@ -18,7 +23,21 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  background: #455c74;
+  color: white;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+.links-container {
+  float: right;
+  margin-right: 25px;
+  padding-top: 5px;
+}
+
+#brand {
+  width: 30px;
+  float: left;
 }
 
 #app {
@@ -26,15 +45,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+}
+
+#main-view {
   padding-top: 60px;
+  margin: 0px 10px;
 }
 
 #nav {
   position: fixed;
   top: 0;
   z-index: 1000;
-  padding: 20px;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.75);
 
   a {
     font-weight: bold;

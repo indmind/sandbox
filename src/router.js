@@ -22,6 +22,11 @@ export default new Router({
       path: "/plane",
       name: "plane",
       component: () => import("./views/Plane.vue")
+    },
+    {
+      path: "/sortable",
+      name: "sortable",
+      component: () => import("./views/Sortable.vue")
     }
   ]
 });

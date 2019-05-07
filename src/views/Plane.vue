@@ -66,8 +66,8 @@ export default {
 
 #sky {
   @include flexCenter();
-  position: relative;
 
+  position: relative;
   overflow: hidden;
   height: 100vh;
 

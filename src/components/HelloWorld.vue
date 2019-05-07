@@ -4,8 +4,13 @@
     <p>
       This lab is used for experimenting and pouring my useless idea
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3>This website created using</h3>
     <ul>
+      <li>
+        <a href="https://github.com/vuejs/vue" target="_blank" rel="noopener"
+          >vue</a
+        >
+      </li>
       <li>
         <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
@@ -34,56 +39,68 @@
     <h3>Essential Links</h3>
     <ul>
       <li>
-        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-          >Forum</a
+        <a
+          href="https://www.instagram.com/dvync_/"
+          target="_blank"
+          rel="noopener"
+          >My Instagram</a
         >
       </li>
       <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-          >Community Chat</a
+        <a href="https://twitter.com/dvync_" target="_blank" rel="noopener"
+          >My Twitter</a
         >
       </li>
       <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-          >Twitter</a
+        <a href="https://github.com/indmind" target="_blank" rel="noopener"
+          >My GitHub</a
         >
       </li>
       <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
+        <a href="https://www.indmind.ga/" target="_blank" rel="noopener"
+          >My Website</a
+        >
+      </li>
+      <li>
+        <a href="https://www.indmind.ga/blog" target="_blank" rel="noopener"
+          >My Blog</a
+        >
       </li>
     </ul>
-    <h3>Ecosystem</h3>
+    <h3>My projects with my friends</h3>
     <ul>
       <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-          >vue-router</a
-        >
-      </li>
-      <li>
-        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-          >vue-devtools</a
-        >
-      </li>
-      <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-          >vue-loader</a
+        <a href="https://www.dvync.site/dasi" target="_blank" rel="noopener"
+          >Dasi</a
         >
       </li>
       <li>
         <a
-          href="https://github.com/vuejs/awesome-vue"
+          href="https://www.indmind.ga/jawaskrip/"
           target="_blank"
           rel="noopener"
-          >awesome-vue</a
+          >Jawaskrip</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/indmind/AutoTypeRacer"
+          target="_blank"
+          rel="noopener"
+          >Auto Type Racer</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/indmind/bagi" target="_blank" rel="noopener"
+          >Bagi</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/indmind/dotfiles"
+          target="_blank"
+          rel="noopener"
+          >My (old) Dotfiles</a
         >
       </li>
     </ul>
